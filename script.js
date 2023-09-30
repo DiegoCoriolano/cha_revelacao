@@ -32,26 +32,13 @@ const contMenino = document.getElementById("somamenino");
 const contMenina = document.getElementById("somamenina");
 
 function contagemMenino() {
-  updateDisplay(++menino);
+  menino++;
+
+  contMenino.innerHTML = menino;
 }
 
-function resetCounter() {
-  menino = 0;
-  updateDisplay(menino);
+function contagemMenina() {
+  menina++;
+
+  contMenina.innerHTML = menina;
 }
-
-function updateDisplay(val) {
-  contMenino.innerHTML = val;
-}
-
-// function contagemMenino() {
-//   menino = ++menino;
-
-//   contMenino.innerHTML = menino;
-// }
-
-// function contagemMenina() {
-//   menina = ++menina;
-
-//   contMenina.innerHTML = menina;
-// }
