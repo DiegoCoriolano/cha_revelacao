@@ -9,6 +9,8 @@ body {
   background-image: url("/fundo_tela.png");
   background-position: center;
   background-size: contain;
+  padding: -20px;
+  border: 2px solid red;
 }
 
 .bodyalign {
@@ -18,7 +20,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 40px;
+  height: 100%;
+  padding: 0px 0px;
 }
 
 .container {
@@ -26,10 +29,10 @@ body {
   height: 500px;
   border-radius: 20px;
   /* box-shadow: 2px 2px 5px grey; */
-  padding: 20px;
   display: block;
   align-items: center;
   justify-content: center;
+  padding: 80px;
   /* background-image: url("./fundo-cha.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -38,13 +41,13 @@ body {
 
 .htmlContent {
   /* border: 3px solid blue; */
-
+  width: 300px;
   height: 5rem;
   display: grid;
-  grid-template-columns: 140px 115px;
+  grid-template-columns: 170px 125px;
   position: relative;
-  top: 82%;
-  padding: 0px;
+  top: 91%;
+  right: 8%;
 }
 
 .contador {
@@ -59,7 +62,7 @@ body {
 
 .bigt-text {
   font-family: Urbanist;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   line-height: 4px;
   margin: 0rem 0.5rem;
 }
@@ -83,7 +86,7 @@ span {
   height: 30px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   /* grid-template-columns: 50% 50%; */
   margin-top: 12%;
   margin-left: 0%;
@@ -124,7 +127,7 @@ span {
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
-  margin-left: 10%;
+  margin-left: 0%;
 }
 
 .menina:hover {
