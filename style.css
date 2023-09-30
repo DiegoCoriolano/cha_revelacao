@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@1,200&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: #fefdf6;
+  background-image: url("/fundo-cha.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.bodyalign {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.container {
+  width: 260px;
+  height: 500px;
+  border-radius: 20px;
+  /* box-shadow: 2px 2px 5px grey; */
+  padding: 20px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  /* background-image: url("./fundo-cha.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; */
+}
+
+.htmlContent {
+  /* border: 3px solid blue; */
+
+  height: 5rem;
+  display: grid;
+  grid-template-columns: 140px 115px;
+  position: relative;
+  top: 82%;
+  padding: 0px;
+}
+
+.contador {
+  /* border: 2px solid yellow; */
+  padding-top: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: left;
+  height: 30px;
+}
+
+.bigt-text {
+  font-family: Urbanist;
+  font-size: 1.3rem;
+  line-height: 4px;
+  margin: 0rem 0.5rem;
+}
+
+#dias {
+  margin-left: 0.2rem;
+}
+
+.numeral {
+  text-align: center;
+}
+
+span {
+  padding-left: 0;
+  text-align: center;
+  font-size: 0.6rem;
+  font-family: Urbanist;
+}
+.likes {
+  /* border: 1px solid red; */
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* grid-template-columns: 50% 50%; */
+  margin-top: 12%;
+  margin-left: 0%;
+}
+
+.menino {
+  /* border: 2px solid blue; */
+  width: 50px;
+  height: 50px;
+  background-image: url("/1.png");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.menino:hover {
+  background-image: url("/1.png");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.menino:active {
+  background-image: url("/2.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.1s ease-in-out;
+}
+
+.menina {
+  /* border: 2px solid pink; */
+  width: 50px;
+  height: 50px;
+  background-image: url("/3.png");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 10%;
+}
+
+.menina:hover {
+  background-image: url("/3.png");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.menina:active {
+  background-image: url("/4.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.somatorio {
+  /* border: 1px solid red; */
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 0.8rem;
+  font-family: Urbanist;
+  position: relative;
+  left: 93%;
+  margin: 1.2rem 0.6rem;
+}
