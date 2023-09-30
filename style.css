@@ -47,11 +47,12 @@ body {
 
 .contador {
   /* border: 2px solid yellow; */
-  padding-top: 10px;
+  padding-top: 5px;
   display: inline-flex;
   align-items: center;
   justify-content: left;
-  height: 30px;
+  height: 25px;
+  margin-left: 1%;
 }
 
 .bigt-text {
@@ -61,9 +62,9 @@ body {
   margin: 0rem 0.5rem;
 }
 
-#dias {
-  margin-left: 0.2rem;
-}
+/* #dias {
+  margin-left: 0.3rem;
+} */
 
 .numeral {
   text-align: center;

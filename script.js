@@ -15,9 +15,6 @@ function contador() {
   const minutos = Math.floor((segundosTotais / 60) % 60);
   const segundos = Math.floor(segundosTotais % 60);
 
-  console.log(dataAtual);
-  console.log(dataCha);
-
   diasCont.innerHTML = dias;
   horasCont.innerHTML = horas;
   minutosCont.innerHTML = minutos;
@@ -35,13 +32,26 @@ const contMenino = document.getElementById("somamenino");
 const contMenina = document.getElementById("somamenina");
 
 function contagemMenino() {
-  menino++;
-
-  contMenino.innerHTML = menino;
+  updateDisplay(++menino);
 }
 
-function contagemMenina() {
-  menina++;
-
-  contMenina.innerHTML = menina;
+function resetCounter() {
+  menino = 0;
+  updateDisplay(menino);
 }
+
+function updateDisplay(val) {
+  contMenino.innerHTML = val;
+}
+
+// function contagemMenino() {
+//   menino = ++menino;
+
+//   contMenino.innerHTML = menino;
+// }
+
+// function contagemMenina() {
+//   menina = ++menina;
+
+//   contMenina.innerHTML = menina;
+// }
