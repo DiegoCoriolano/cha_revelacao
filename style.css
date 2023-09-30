@@ -6,13 +6,15 @@ body {
   align-items: center;
   margin: auto;
   background-color: #fefdf6;
-  background-image: url("/fundo-cha.png");
-  background-repeat: no-repeat;
+  background-image: url("/fundo_tela.png");
   background-position: center;
   background-size: contain;
 }
 
 .bodyalign {
+  background-image: url("/fundo-cha.png");
+  background-position: center;
+  background-size: contain;
   display: flex;
   align-items: center;
   justify-content: center;
