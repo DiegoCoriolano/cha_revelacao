@@ -3,7 +3,7 @@ const horasCont = document.getElementById("horas");
 const minutosCont = document.getElementById("minutos");
 const segundosCont = document.getElementById("segundos");
 
-const chaRevelacao = "2023-10-08 19:00:00";
+const chaRevelacao = "2023-10-08 16:00:00";
 
 function contador() {
   const dataCha = new Date(chaRevelacao);
@@ -15,7 +15,8 @@ function contador() {
   const minutos = Math.floor((segundosTotais / 60) % 60);
   const segundos = Math.floor(segundosTotais % 60);
 
-  console.log(diasCont.innerHTML);
+  console.log(dataAtual);
+  console.log(dataCha);
 
   diasCont.innerHTML = dias;
   horasCont.innerHTML = horas;
