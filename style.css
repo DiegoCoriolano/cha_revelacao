@@ -39,6 +39,37 @@ body {
   background-position: center; */
 }
 
+.link {
+  position: relative;
+  top: 77%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+.link a {
+  font-family: Urbanist;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.link a:hover {
+  font-family: Urbanist;
+  text-decoration: none;
+  font-size: 1.25rem;
+  transition: all 0.2s ease-in-out;
+  color: black;
+}
+
+.link a:visited {
+  font-family: Urbanist;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: all 0.2s ease-in-out;
+  color: black;
+}
+
 .htmlContent {
   /* border: 3px solid blue; */
   width: 300px;
@@ -46,7 +77,7 @@ body {
   display: grid;
   grid-template-columns: 170px 125px;
   position: relative;
-  top: 91%;
+  top: 87%;
   right: 8%;
 }
 
@@ -154,9 +185,9 @@ span {
   display: inline-flex;
   align-items: center;
   justify-content: space-around;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-family: Urbanist;
   position: relative;
-  left: 93%;
-  margin: 1.2rem 0.6rem;
+  left: 87%;
+  margin: 1.8rem 0.6rem;
 }
